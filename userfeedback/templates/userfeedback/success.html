@@ -1,0 +1,17 @@
+{% extends 'userfeedback/header.html' %}
+
+{% block content %}
+
+  <h4>User Feedback Submited</h4>
+  <div class="text-success">
+    <ul class="messages">
+        {% for message in messages %}
+        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+    </ul>
+  </div>
+  
+  
+
+
+{% endblock %}

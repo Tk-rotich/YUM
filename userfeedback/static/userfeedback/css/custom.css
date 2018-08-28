@@ -1,0 +1,34 @@
+
+html body {
+		  height:100%
+        }
+button, input, select, textarea {
+    display: block;
+}
+
+.align-center{
+    margin-left: 20%;
+}
+
+ul, #id_rating{
+    list-style: none;
+}
+
+ul, #id_rating,li{
+    display: initial;
+}
+#id_comment{
+    display: block;
+}
+#id_phone_number, #id_neighbourhood, #id_comment{
+    width: 45%;
+}
+.btn,.btn-default{
+    display: table;
+}
+#id_comment{
+    margin-bottom: 10px;
+}
+#id_rating{
+    margin-top: 10px;
+}

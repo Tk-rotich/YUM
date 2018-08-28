@@ -1,0 +1,15 @@
+{% extends 'userfeedback/header.html' %}
+
+{% block content %}
+
+  <h4 class="align-center">Feedback Form</h4>
+  <div class="container ">
+    <form method="post">
+      {% csrf_token %}
+      {{ form}}
+      <button class="btn btn-default" type="submit">submit</button>
+    </form>
+  </div>
+
+
+{% endblock %}
